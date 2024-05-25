@@ -5,7 +5,7 @@ usage() {
     echo "Options:"
     echo "  -d <domain>: Specify a single domain."
     echo "  -f <file>: Specify a file containing multiple domains (one per line)."
-    echo "Example: $0 -d twitch.tv"
+    echo "Example: $0 -d example.tld"
     echo "         $0 -f domains.txt"
     exit 1
 }
